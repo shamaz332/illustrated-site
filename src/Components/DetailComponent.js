@@ -16,7 +16,7 @@ export default function DetailComponent() {
             <p class="center-align">
            
             <a
-              href='https://play.google.com/'
+              href='/'
               className='btn btn-header white-text text-darken-4 teal accent-3'
             >
              Join Now
@@ -24,7 +24,7 @@ export default function DetailComponent() {
             </p>
           </div>
           <div className='col s12 m6'>
-            <img className='responsive-img' src={ML} />
+            <img className='responsive-img' src={ML} alt="bg"/>
           </div>
         </div>
       </div>

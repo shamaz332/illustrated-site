@@ -10,7 +10,7 @@ export default class HeaderComponent extends Component {
     return (
       <div className="row">
         <div className="col s12 m6">
-          <img className="responsive-img" src={bg} />
+          <img className="responsive-img" src={bg} alt="bg"/>
         </div>
         <div className="col s12 m6">
           <h4 className="font">
@@ -25,15 +25,14 @@ export default class HeaderComponent extends Component {
 
           <h6 className="font">Find Your Muslim Life Partner</h6>
           <p class="center-align">
-           
             <a
-              href="#"
+              href="/"
               className="btn btn-header white-text text-darken-4 teal accent-3 modal-trigger center"
               data-target="modal1"
             >
               View Singles
             </a>
-     </p>
+          </p>
         </div>
 
         <div>
@@ -52,7 +51,7 @@ export default class HeaderComponent extends Component {
             </div>
             <div className="modal-footer">
               <a
-                href="#close"
+                href="/"
                 className="btn btn-header modal-close white-text teal accent-3"
               >
                 Close
